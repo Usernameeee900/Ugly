@@ -14,10 +14,10 @@ end)
 Section:NewButton("ButtonText", "ButtonInfo", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
-local Tab = Window:NewTab("🇸‌🇱‌🇮‌🇩‌🇪‌🇷‌?!")
+local Tab = Window:NewTab("slider?!")
 
 Section:NewSlider("speed changer", "slide to your 1000% potential cum! •~•", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 
--end end end !!!!
+
